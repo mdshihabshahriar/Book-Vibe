@@ -18,6 +18,9 @@ export const router = createBrowserRouter([
         path: "/books",
         element: <Books></Books>,
       },
+      {
+        path: "/bookDetails/:id"
+      }
     ],
     errorElement: <ErrorPage></ErrorPage>
   }, 
