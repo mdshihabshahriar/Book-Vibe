@@ -30,7 +30,7 @@ const BookDetails = () => {
 
     
 
-    const {handleMarkAsRead, storedBooks} = useContext(BookContext)
+    const {handleMarkAsRead, handleWishList} = useContext(BookContext)
 
     return (
         <div className="grid md:grid-cols-2 bg-base-100 shadow-sm container mx-auto my-8">
@@ -64,7 +64,7 @@ const BookDetails = () => {
                     </div>
                     <div className='flex items-center gap-2'>
                         <button onClick={()=> handleMarkAsRead(expectedBook)} className="btn">Mark as Read</button>
-                        <button className="btn btn-primary">Add to Wishlist</button>
+                        <button className="btn btn-primary" onClick={() => handleWishList(expectedBook)}>Add to Wishlist</button>
                     </div>
                 </div>
             </div>
