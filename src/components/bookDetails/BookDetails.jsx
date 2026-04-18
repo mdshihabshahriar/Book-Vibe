@@ -16,7 +16,6 @@ const BookDetails = () => {
 
     const {
         bookName,
-        bookId,
         author,
         image,
         review,
