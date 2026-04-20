@@ -1,16 +1,50 @@
-# React + Vite
+# 📚 Book Vibe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Book Vibe** is a modern and interactive book review and recommendation platform where users can explore books, read details, and discover their next favorite reads.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 https://book-vibe-1.netlify.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🌟 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📖 Browse books with detailed information  
+- ⭐ View ratings and popular books  
+- 📝 Read book reviews  
+- 📱 Fully responsive design  
+- 🎨 Clean and user-friendly interface  
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5  
+- CSS3
+- Tailwind CSS
+- DaisyUI
+- JavaScript (ES6+)  
+- React.js  
+- JSON Data / API  
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/mdshihabshahriar/Book-Vibe.git
+
+# Navigate to the project folder
+cd Book-Vibe
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
